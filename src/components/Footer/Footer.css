@@ -1,0 +1,137 @@
+/* Style for the entire footer */
+/* Footer.css */
+
+.footer {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding: 40px 0;
+}
+
+.subscribe-section {
+  text-align: center;
+}
+
+.footer h4 {
+  font-size: 18px;
+}
+
+.footer input[type="email"] {
+  width: 40%;
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.sustainability-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-and-social {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-section,
+.social-media-section {
+  flex: 1;
+  padding: 0 15px;
+  text-align: center;
+}
+
+
+.social-media-section {
+  text-align: center;
+}
+
+.social-media-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-section ul li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.copyright-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subscribe-and-email {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.subscribe-section {
+  flex: 1;
+}
+
+.email-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px; /* Add spacing between the checkbox and email */
+}
+
+.email-section p {
+  margin-bottom: 5px;
+}
+
+.email-section input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.Parent{
+  margin-left: 20px;
+  margin-right: 20px;
+}

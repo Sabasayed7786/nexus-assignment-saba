@@ -1,0 +1,112 @@
+/* Section1.css */
+
+.section1-container {
+    display: flex; /* Use flexbox to display items in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row on smaller screens */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between items */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .section1-text {
+    flex: 1; /* Allow the text section to grow to fill available space */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .section1-image img {
+    max-width: 100%; /* Set the maximum width to 100% to ensure it scales down proportionally */
+    max-height: 500px; /* Set the maximum height to your desired value */
+  }
+  
+  /* Add media queries for responsive design */
+  @media (max-width: 768px) {
+    .section1-container {
+      flex-direction: column; /* Stack items on top of each other on smaller screens */
+    }
+  
+    .section1-text,
+    .section1-image {
+      flex: initial; /* Reset flex properties for smaller screens */
+    }
+  }
+
+
+  .read-more-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .arrow-icon {
+    margin-left: 40px; /* Adjust the margin to control the space between the icon and text */
+    vertical-align: middle; /* Vertically align the icon with the text */
+  }
+  
+  .read-more-button:hover {
+    background-color: #eee;
+    border-color: #999;
+    color: #222;
+  }
+  
+  .p-tag{
+    font-size: 24px;
+  }
+  
+  
+  
+  /* Section3.css */
+  .section3-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .slider-container {
+    max-width: 60%; /* Adjust the width as needed */
+  }
+  
+  /* Increase the size of the images */
+  .slider-container .carousel .slider-wrapper .slider .slider-frame .slider-content  {
+    max-width: 100%; /* Ensure the image width doesn't exceed its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    max-height: 400px; /* Increase the maximum height to make the images taller */
+  }
+  
+  .img-sec3{
+    max-height: 500px;
+  }
+
+  /* Media query for mobile view */
+@media (max-width: 768px) {
+  .section3-container {
+    flex-direction: column; /* Stack elements vertically for mobile view */
+    text-align: center; /* Center-align the text */
+    
+  }
+
+  .slider-container {
+    max-width: 100%; /* Allow the carousel to take full width in mobile view */
+    margin-top: 20px;
+  }
+}
+
+
+.carousel .control-arrow {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set the arrow color to white */
+  border-radius: 50%; /* Make the background circular */
+  padding: 10px; /* Add some padding to the arrows */
+  font-size: 20px; /* Adjust the arrow icon size */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover effect for the carousel navigation arrows */
+.carousel .control-arrow:hover {
+  background-color: white; /* Change the background color to white on hover */
+  color: black; /* Change the arrow color to black on hover */
+}

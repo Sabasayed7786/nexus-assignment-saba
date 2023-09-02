@@ -1,0 +1,15 @@
+.section1-container {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .section1-text {
+    flex: 1; /* Allow text to take up available space */
+    /* Add any other styles as needed for the text section */
+  }
+  
+  .section1-image {
+    flex: 1; /* Allow image to take up available space */
+    /* Add any other styles as needed for the image section */
+  }

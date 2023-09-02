@@ -1,0 +1,75 @@
+
+.hero-container {
+    background-image: url("../../Assets/Hero.png");
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between; /* Adjust the space between the image and text */
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .hero-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  /* Text container styles */
+  .text-container {
+    flex: 1;
+    max-width: 50%; /* Adjust the maximum width of the text container */
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .text-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheader styles */
+  .text-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Call to action button styles */
+  .cta-button {
+   
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    
+    border:solid whitesmoke;
+  }
+
+  .p-tag{
+   padding-bottom: 10px;
+  }
+
+  /* Apply styles when hovering over the button */
+.cta-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Mobile view styles */
+  @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: column; /* Stack image and text in mobile view */
+      align-items: center; /* Center-align in mobile view */
+    }
+  
+    .text-container {
+      max-width: 100%; /* Allow text to take full width in mobile view */
+    }
+  }
+  

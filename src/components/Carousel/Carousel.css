@@ -1,0 +1,97 @@
+.swiper-container-wrapper{
+    padding: 0 20px;
+    
+}
+
+/* Style the Swiper container */
+.swiper-container {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Style the Swiper slides */
+  .swiper-slide {
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    
+
+  }
+  
+  /* Style the Swiper slides on hover */
+  .swiper-slide:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style the Swiper slide content */
+  .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 300px;
+  }
+
+  .swiper-slide2 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Style the Swiper slide text */
+  .swiper-slide div {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Style Swiper navigation buttons */
+  .swiper-button-prev,
+  .swiper-button-next {
+    background-color:black;
+    color: #fff;
+    
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background-color:black;
+  }
+  
+  /* Style Swiper pagination bullets */
+  .swiper-pagination-bullet {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    border-radius: 50%;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+
+  img{
+    max-width: 100%; /* Set the maximum width to 100% to ensure it scales down proportionally */
+    max-height: 300px;
+  }
+
+
+  /*for text swiper*/
+
+  
+  
